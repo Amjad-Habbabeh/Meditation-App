@@ -11,7 +11,6 @@ const app = () => {
   const timeDisplay = document.querySelector('.time-display');
   // get the length of the outline
   const outlineLength = outline.getTotalLength();
-  console.log(outlineLength);
   // duration
   let fackDuration = 600;
   outline.style.strokeDasharray = outlineLength;
